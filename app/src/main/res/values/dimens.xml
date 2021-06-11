@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="two_four_dp">24dp</dimen>
+    <dimen name="three_zero_dp">30dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="two_zero_dp">20dp</dimen>
+    <dimen name="five_zero_dp">50dp</dimen>
+
+</resources>
