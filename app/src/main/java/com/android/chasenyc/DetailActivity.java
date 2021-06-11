@@ -74,12 +74,12 @@ public class DetailActivity extends AppCompatActivity implements OnMapReadyCallb
     private String setView(){
         School school = getIntent().getParcelableExtra( SCHOOL );
         TextView schoolName = findViewById(R.id.school_name );
-        schoolName.setText(school.getSchool_name());
+        schoolName.setText(getTrimValue(school.getSchool_name()));
 
         TextView schoolPhone = findViewById(R.id.school_phone );
         //Set the number linkify to highlight the phone number
         schoolPhone.setAutoLinkMask( Linkify.PHONE_NUMBERS);
-        schoolPhone.setText(school.getPhone_number());
+        schoolPhone.setText(getTrimValue(school.getPhone_number()));
 
         TextView schoolWebSite = findViewById(R.id.school_website );
         //Set the number linkify to highlight the web sides
